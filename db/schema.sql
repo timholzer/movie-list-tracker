@@ -18,7 +18,7 @@ CREATE TABLE movies (
   completed BOOLEAN,
   completion_date DATETIME,
   user_rating INTEGER,
-  imdb_rating DECIMAL(3,2)
+  imdb_rating DECIMAL(3,2),
   notes VARCHAR(1023),
   imdb_link VARCHAR(1023),
   watch_link VARCHAR(1023),
