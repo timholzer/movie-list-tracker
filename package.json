@@ -15,7 +15,7 @@
   "license": "ISC",
   "homepage": "https://github.com/Greg15323/Color_project#readme",
   "dependencies": {
-    "bcrypt": "^5.0.0",
+    "bcrypt": "^5.0.1",
     "chart.js": "^3.0.2",
     "connect-session-sequelize": "^7.0.4",
     "dotenv": "^8.2.0",

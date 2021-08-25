@@ -11,17 +11,17 @@ Movielist.init(
             autoIncrement: true
         },
         user: {
-            type: DataTypes.VARCHAR,
+            type: DataTypes.STRING,
         },
         release_date: {
-            type: DataTypes.DATE,
+            type: DataTypes.DATEONLY,
         },
         title: {
-            //maybe just varchar?
-            type: DataTypes.VARCHAR(1023),
+            //maybe just STRING?
+            type: DataTypes.STRING(1023),
         },
         media_type: {
-            type: DataTypes.VARCHAR(1023),
+            type: DataTypes.STRING(1023),
             //see if there is a way to limit the imputs, probably better to do on the frontend
         },
         episodes: {
@@ -34,10 +34,10 @@ Movielist.init(
             type: DataTypes.BOOLEAN,
         },
         gaming_system: {
-            type: DataTypes.VARCHAR(1023),
+            type: DataTypes.STRING(1023),
         },
         author: {
-            type: DataTypes.VARCHAR(1023),
+            type: DataTypes.STRING(1023),
         },
         duration_in_minutes: {
             type: DataTypes.INTEGER,
@@ -49,7 +49,7 @@ Movielist.init(
             type: DataTypes.BOOLEAN,
         },
         completion_date: {
-            type: DataTypes.DATETIME,
+            type: DataTypes.DATE,
             //datetime now will be in routes?
         },
         user_rating: {
@@ -59,13 +59,13 @@ Movielist.init(
             type: DataTypes.DECIMAL(3,2)
         },
         notes: {
-            type: DataTypes.VARCHAR(1023),
+            type: DataTypes.STRING(1023),
         },
         imdb_link: {
-            type: DataTypes.VARCHAR(1023),
+            type: DataTypes.STRING(1023),
         },
         watch_link: {
-            type: DataTypes.VARCHAR(1023),
+            type: DataTypes.STRING(1023),
         },
     },
     {
